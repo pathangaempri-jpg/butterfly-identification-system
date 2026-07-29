@@ -1,0 +1,25 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "portal",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["--prefix", "portal", "run", "dev"],
+      "port": 3002,
+      "autoPort": true
+    },
+    {
+      "name": "backend",
+      "runtimeExecutable": "D:\\thardeye_projects\\Butterfly Identification system\\backend\\venv\\Scripts\\python.exe",
+      "runtimeArgs": ["D:\\thardeye_projects\\Butterfly Identification system\\backend\\manage.py"],
+      "port": 5000
+    },
+    {
+      "name": "admin",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["--prefix", "admin", "run", "dev"],
+      "port": 3000,
+      "autoPort": true
+    }
+  ]
+}
