@@ -83,7 +83,7 @@ export function Editor({
               class: ImageClass as any,
               config: {
                 endpoints: {
-                  byFile: `${process.env.NEXT_PUBLIC_API_URL ?? "http://localhost:5000"}/api/v1/admin/cms/articles/upload-image`,
+                  byFile: `${process.env.NEXT_PUBLIC_API_URL ?? "https://staging.thirdeyegfx.in/butterfly_backend"}/api/v1/admin/cms/articles/upload-image`,
                 },
                 field: "image",
                 additionalRequestHeaders: {

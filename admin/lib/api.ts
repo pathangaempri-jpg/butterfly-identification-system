@@ -2,7 +2,8 @@ import axios, { type AxiosError } from "axios";
 import { getToken, clearAuth } from "./auth";
 
 const BASE_URL =
-  (process.env.NEXT_PUBLIC_API_URL ?? "http://localhost:5000") + "/api/v1";
+  (process.env.NEXT_PUBLIC_API_URL ??
+    "https://staging.thirdeyegfx.in/butterfly_backend") + "/api/v1";
 
 const api = axios.create({
   baseURL: BASE_URL,
